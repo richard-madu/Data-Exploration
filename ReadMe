@@ -1,0 +1,45 @@
+# Exploratory Data Analysis Project
+
+## Introduction
+Welcome to the Exploratory Data Analysis (EDA) project repository! In this project, I've conducted an in-depth exploration of a dataset, focusing on importing, cleaning, and analyzing the data to extract meaningful insights. This README provides an overview of the project's goals, data wrangling process, research questions, and key findings.
+
+## Data Wrangling
+In the data wrangling phase, I utilized the powerful pandas library to clean and prepare the dataset for analysis. The following tasks were performed:
+
+### i. Dropping Irrelevant Columns
+Certain columns were identified as irrelevant to the research questions and could potentially introduce noise into the analysis. These columns include homepage, tagline, cast, overview, and production_companies. They were dropped to streamline the dataset.
+
+### ii. Handling Missing Values
+To ensure the accuracy of the analysis, rows with missing values were dropped. This step was taken to maintain data integrity and avoid biasing the results.
+
+### iii. Removing Duplicate Data
+Duplicate entries were identified and removed to prevent skewing the analysis results. This process aimed to provide a more accurate representation of the dataset.
+
+### iv. Splitting and Exploding Genres
+Movies with multiple genres were handled by splitting the genres and then exploding them. This allowed for a more granular analysis of movie genres, facilitating better insights into genre preferences.
+
+## EDA and Research Questions
+The exploratory data analysis phase focused on answering four research questions using the cleaned dataset:
+
+### i. What is the Most Popular Genre?
+By analyzing the frequency distribution of genres, I determined that the most popular movie genre is adventure, while the least popular is documentary.
+
+### ii. What is the Relationship Between Budget and Revenue?
+An analysis of the relationship between movie budgets and revenues revealed a positive correlation across all genres. This finding suggests that higher budget movies tend to generate higher revenues.
+
+### iii. What is the Relationship Between Revenue, Budget, and Genres?
+By exploring the interaction between revenue, budget, and genres, I identified trends that shed light on how different genres perform financially. This analysis provided insights into which genres are more likely to generate higher revenues given a certain budget.
+
+### iv. What is the Most Profitable Genre?
+Through a detailed analysis of profits, factoring in revenue and budget, I determined that the most profitable movie genre is adventure, whereas the least profitable is foreign.
+
+## Key Findings
+After conducting the exploratory data analysis, the following key findings emerged:
+
+1. The most popular movie genre is adventure, while the least popular is documentary.
+2. There is a positive relationship between movie revenue and budget, regardless of genre.
+3. Adventure is the most profitable genre, while foreign movies tend to be the least profitable.
+4. Popularity and profitability are positively correlated, implying that more popular genres often yield higher profits.
+
+## Conclusion
+This project showcases the power of exploratory data analysis in uncovering valuable insights from raw datasets. By following the data wrangling process and addressing specific research questions, we gained a deeper understanding of movie genres, their popularity, profitability, and the relationships between budget and revenue. These findings can guide decision-making in the film industry and serve as a foundation for further analysis. Feel free to explore the code and visualizations in the repository to delve into the details of this data-driven journey!
